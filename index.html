@@ -10,6 +10,7 @@
 </head>
       
 <body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.2/axios.min.js"></script>
   <header id="main-header" class="bg-info text-white p-4 mb-3">
     <div class="container">
       <div class="row">
@@ -23,7 +24,7 @@
    <div id="main" class="card card-body">
     <h2 class="title">Add Expense</h2>
     <form id="addForm" class="form-inline mb-3">
-      <input type="number" class="form-control mr-2" id="item" placeholder="Enter Expense Amount" required>
+      <input type="number" class="form-control mr-2" id="price" placeholder="Enter Expense Amount" required>
       <select name="description" id="description" class="form-control mr-2">
         <option value="description" disabled selected>Description</option>
         <option value="Movie">Movie</option>
